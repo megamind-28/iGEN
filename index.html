@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<!--The home page for iGEN -->
+
+<!-- To-Do:
+- Finish citations page HTML
+- Style Demo Day Slides
+  
+Appealing extras:
+- Add images to pages (and resize)
+- Add more content
+- Create feedback form using input
+- Create database for feedback (PHP)
+- Add games (typing, vocabulary match, identifying computer parts)-->
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>iGEN</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+  
+ <body> 
+     
+     <header class="sticky header">
+       <!-- Navigation Bar -->
+      <nav class="navBar" id="navHome">
+  <!--       <a href="index.html"><img class="logo" src="iGEN.png" alt="iGen logo"></a> -->
+        <a href="index.html" class="selected">🖥 Home</a>
+        <a href="mainPages/computerControls.html">Computer Controls</a>
+        <a href="mainPages/internetSafety.html">Internet Safety</a>
+        <a href="mainPages/computerScience.html">Computer Science</a>
+  <!--       <a href="mainPages/feedback.html">Feedback</a>-->
+        <a href="mainPages/aboutUs.html">About Us</a>
+  <!--       <a href="mainPages/citations.html">Works Cited</a> -->
+        <a href="javascript:void(0);" class="icon" onclick="responsiveNavHome()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+       
+        <h1 class="title">iGEN</h1>
+       <h1 class="subtitle"><i>Decoding Technology for Generations</i></h1>
+    </header>
+
+   
+   <section class="content">
+     <section class=section1>
+       <br>
+    <div class="getStartedText">
+      <p>Click the <b>Get Started</b> button below to start <b>learning</b> about <b>computer literacy</b>!</p>
+   </div>
+   
+   <div class="getStartedBtn">
+    <a href="mainPages/computerControls.html"><button class="startBtn">Get Started</button></a>
+   </div>
+   <div class="getStartedText">
+     <p><b class="downArrow">&darr;</b><b> Scroll down</b> to find out more about <b>iGEN </b><b class="downArrow">&darr;</b></p>
+   </div>
+     </section>
+      
+  <!-- Introduction -->
+     <section class=section2>
+    <h2 id="compLit" >What is Computer Literacy?</h2>
+    <p class = "compLitInfo">Computer literacy is the knowledge and skills required for the basic use of computer hardware, software and the Internet. These critical computer and Internet skills are highly valued in today’s academic and professional environments. Sharpening these skills can help lead to success in education and employment, as computer skills are integral to all areas of study and work.
+</p>
+     </section>
+
+     <section class=section1>
+    <h2 id="compLitImportance">Why Is Computer Literacy Important?</h2>
+    <p class="compLitImportanceInfo">The importance of computers cannot be understated - our daily lives function are based off of computing. From banking to education, the world is heavily reliant on this technology. Despite this, many people are unable to properly use computers and struggle with basic functions that are a necessity in today's world. This can lead to people being unable to perform basic tasks, such as paying bills and sending an email, thus perpetuating further problems.</p>
+    <p>Computer illiteracy also impacts opportunities for people. For example, they may not be able to get a job because they cannot apply or because the job requires basic computer skills. Additionally, people can also become vulnerable to attacks such as phishing or scams because they do not understand how computers work.</p>
+    <p><b>iGEN</b> seeks to solve computer illiteracy by empowering users with basic computer skills.</p>
+     </section>
+
+     <section class=section2>
+    <h2 class="aboutiGEN">About iGEN</h2>
+    <p class = "aboutiGENInfo">iGEN is geared towards anyone that needs help learning how computers work and is interested in expanding their computer literacy knowledge. Our website is specially aimed at elementary-aged children and seniors, in hopes of closing the growing gap in digital education. iGEN educates people in the basics of computer literacy in a way that is easy to understand. It can teach you about how to use computers, internet safety, and the fundamentals of computer science. You can choose to go through the lessons in order or jump to a specific topic that you want to know more about. You may also leave <a href="mainPages/feedback.html">feedback</a> on how to improve the website and any suggestions for other computer literacy topics that we should include on the site.</p>
+<!-- At the end of each lesson, there will be a short quiz to help the user review what they learned. -->
+
+    <div class="getStartedText">
+      <p>Do you have any <b>comments</b>, <b>questions</b>, <b>bug reports</b>, or <b>feature requests</b>? <b>Press the button</b> below to give us your feedback!</p>
+   </div>
+   
+   <div class="getStartedBtn">
+    <a href="mainPages/feedback.html"><button class="startBtn">Feedback</button></a>
+   </div>
+    
+    <br></br>
+     </section>
+   </section>
+     
+  <script src="script.js"></script>
+</body>
+
+</html>
